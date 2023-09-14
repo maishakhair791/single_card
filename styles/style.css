@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    
+    margin:auto;
+    width:22%;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.emptybox{
+    
+    height:150px;
+    background-color: #5681f6;
+}
+.textBox{
+  
+}
+.img{
+    height:30px ;
+    width: 60px;
+    border: 1px solid green;
+}
+.btn{
+   height:40px ;
+   width: 120px;
+   border-radius:30px ;
+   color: #f5f4f4;
+   background-color:  #688ff9;
+   border: none;
+   font-size: medium;
+}
+.align{ 
+    text-align: center;
+}
+.flexbox{
+    height: 50px;
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+.border{
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid gray;
+}
+.inline{
+   padding-left: 5px;
+}
+.shareImg{
+    width: 20px;
+}
